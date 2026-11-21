@@ -1,0 +1,12 @@
+# Programas compilados (gerados a partir dos .c, não precisam ir para o GitHub)
+*.o
+*.out
+*.exe
+a.out
+
+# Arquivos sem extensão são os executáveis gerados pelo gcc;
+# pastas e arquivos com extensão continuam sendo versionados
+*
+!*/
+!*.*
+!.gitignore
