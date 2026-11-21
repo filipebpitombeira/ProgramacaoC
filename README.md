@@ -1,23 +1,27 @@
-# Programação em C
+# C Programming
 
-Exercícios e desafios que fiz enquanto aprendo a linguagem C, organizados do mais simples ao mais completo.
+🇧🇷 [Leia em português](README.pt-BR.md)
 
-| # | Projeto | Descrição |
+Exercises and challenges I built while learning the C language, ordered from the simplest to the most complete.
+
+| # | Project | Description |
 |---|---|---|
-| 01 | [Olá, mundo](01-ola-mundo/) | Primeiro programa: exibe uma mensagem na tela |
-| 02 | [Super Trunfo – Países](02-super-trunfo/) | Cadastro e comparação de cartas de cidades, em níveis de dificuldade |
+| 01 | [Hello, world](01-ola-mundo/) | First program: prints a message to the screen |
+| 02 | [Super Trunfo – Countries](02-super-trunfo/) | Card registration and comparison for a city-themed card game, split into difficulty levels |
 
-## Como compilar
+> The programs' prompts and messages are in Portuguese, since they were written for a Brazilian course.
 
-É preciso ter o `gcc` instalado. Dentro da pasta do exercício:
+## How to compile
+
+You need `gcc` installed. Inside the exercise folder:
 
 ```bash
-gcc nome_do_arquivo.c -o programa
-./programa
+gcc file_name.c -o program
+./program
 ```
 
-No VS Code, a tarefa de build já vem configurada em `.vscode/tasks.json` (atalho `Ctrl+Shift+B`).
+In VS Code, the build task is already set up in `.vscode/tasks.json` (shortcut `Ctrl+Shift+B`).
 
-## Sobre mim
+## About me
 
-Sou técnico de informática e estou fazendo a transição para desenvolvimento de software.
+I'm an IT technician from Brazil, transitioning into software development.
